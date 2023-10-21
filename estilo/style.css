@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'cooperl';
+    src: url('../fontes/cooperl.ttf') format('truetype');
+}
+
+:root {
+    --verde-tema: #539E78;
+    --verde-claro-suave: #B8D9D0;
+    --laranja-tom-de-pele: #D9A282;
+    --laranja-principal: #A68953;
+    --marrom: #735317;
+    --fonte-cooperl: 'cooperl', cursive;
+}
+h1 {
+    
+}
