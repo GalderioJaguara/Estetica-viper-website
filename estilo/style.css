@@ -4,6 +4,7 @@
     font-family: 'cooperl';
     src: url('../fontes/cooperl.ttf') format('truetype');
 }
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
     --verde-tema: #539E78;
@@ -12,7 +13,35 @@
     --laranja-principal: #A68953;
     --marrom: #735317;
     --fonte-cooperl: 'cooperl', cursive;
+    --fonte-hanken-grotesk: 'Hanken Grotesk', sans-serif;
 }
-h1 {
-    
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--verde-claro-suave);
+    font-family: var(--fonte-hanken-grotesk);
+    font-size: 16px;
+
+}
+header {
+    background-color: white;
+}
+.logo-inicio {
+      
+}
+#logo {
+    max-width: 50px;
+}
+
+.navbar {
+    display: inline-block;
+    text-decoration: none;
+    text-indent: 30px;
+}
+main {
+    max-width: 1440px;
 }
