@@ -29,17 +29,15 @@ body {
 }
 header {
     background-color: #5E893A;
-    height: 160px;
-    padding-bottom: 10px;
+    
 }
-div#logo > img {
-    max-width: 120px;
-}
-div#logo {
-   padding-top: 10px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+.logo{ 
+    color: #D9A282;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    
+   
 }
 
 nav li{
@@ -49,12 +47,12 @@ nav li{
     text-indent: 30px;
     font-family: var(--fonte-cooperl);
 }
-nav a {
+nav .navbar {
     text-decoration: none;
     color: black;
    
 }
-nav a:hover {
+nav .navbar:hover {
     text-decoration: underline;
 
 }
