@@ -28,20 +28,48 @@ body {
 
 }
 header {
-    background-color: white;
+    background-color: #5E893A;
+    height: 160px;
+    padding-bottom: 10px;
 }
-.logo-inicio {
-      
+div#logo > img {
+    max-width: 120px;
 }
-#logo {
-    max-width: 50px;
+div#logo {
+   padding-top: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
-.navbar {
+nav li{
     display: inline-block;
-    text-decoration: none;
+    padding: 10px;
+    list-style-type: none;
     text-indent: 30px;
+    font-family: var(--fonte-cooperl);
 }
+nav a {
+    text-decoration: none;
+    color: black;
+   
+}
+nav a:hover {
+    text-decoration: underline;
+
+}
+
 main {
-    max-width: 1440px;
+    max-width: 95vw;
+    background-color: white;
+    margin: auto;
 }
+.principal {
+    max-width: 1440px;
+    margin: auto;
+}
+
+
+
+
+
