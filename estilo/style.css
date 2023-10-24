@@ -12,6 +12,7 @@
     --laranja-tom-de-pele: #D9A282;
     --laranja-principal: #A68953;
     --marrom: #735317;
+    --verde-logo: #5E893A;
     --fonte-cooperl: 'cooperl', cursive;
     --fonte-hanken-grotesk: 'Hanken Grotesk', sans-serif;
 }
@@ -28,16 +29,20 @@ body {
 
 }
 header {
-    background-color: #5E893A;
+    background-color: var(--verde-logo);
     
 }
 .logo{ 
     color: #D9A282;
-    font-size: 30px;
+    font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
+    text-decoration: none; 
+}
+.logo-dois{
+    font-size: 15px;
+}
+img.logo-cobra{
     
-   
 }
 
 nav li{
