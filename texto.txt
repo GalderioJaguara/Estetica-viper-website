@@ -1,0 +1,45 @@
+VIPER centro de estética
+
+<nav>
+Sobre nós
+Procedimentos
+A especialista
+Fale conosco
+</nav>
+
+<main>
+<section>
+
+Quem somos?
+
+</section>
+<section>
+
+Quem sou?
+
+</section>
+<section>
+
+
+Nossos procedimentos
+Peeling quimico
+Microagulhamento
+
+
+</section>
+
+<footer>
+
+Nossos serviços
+Procedimentos
+Peeling químico
+Microagulhamento
+Endereço
+Rua: avenida 1
+Bairro: Jardim Califórnia
+161
+Formosa - GO
+Contato
+Telefone: (61)99839-8642
+Email: AGLUPSCHINSKI@GMAIL.COM
+Instagram: @Viper_Estetica
