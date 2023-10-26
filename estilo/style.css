@@ -25,6 +25,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 body {
@@ -33,3 +34,48 @@ body {
     font-size: 16px;
     min-width: 320px;
 }
+
+header{
+    background-color: var(--verde-logo);
+    padding: 1.5em;
+}
+
+header p {
+    font-family: var(--fonte-serifada);
+    color: var(--laranja-principal);
+    font-size: 4em;
+    text-align: center;
+}
+header p#clinica-estetica{
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+header li{
+    list-style-type: none;
+    font-family: var(--fonte-serifada);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+header a:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.container-flex-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
