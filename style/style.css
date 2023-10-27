@@ -171,11 +171,19 @@ header a:hover{
     font-family: var(--fonte-sans-serif);
     font-size: 1.5em;
     letter-spacing: 3px;
+    transition: all 1s;
+    text-align: center;
 }
 .procedimentos-lista-container-show li:hover{
     cursor: pointer;
     text-decoration: underline;
+    color: #5E893A;
+    transform: scale(1.5);
+
 }
+
+
+
 .procedimentos-lista-container-show h1{
     font-family: var(--fonte-serifada);
     font-size: 3em;
@@ -193,17 +201,44 @@ header a:hover{
 .rodape-servicos{
     display: flex;
     flex-direction: column;
-    gap: 1.5em;
+
+}
+.rodape-servicos h1{
+    margin-bottom: 2em;
+    
+}
+.rodape-servicos h2{
+    margin-bottom: 1.3em;
+    font-size: 0.9em;
+}
+.rodape-servicos p{
+    line-height: 2em;
+    font-size: 0.7em;
 }
 .rodape-endereco{
     display: flex;
     flex-direction: column;
-    gap: 1.5em;
+    
+}
+.rodape-endereco h3{
+    margin-bottom: 2em;
+    
+}
+.rodape-endereco p{
+    line-height: 2em;
+    font-size: 0.7em;
 }
 .rodape-contato{
     display: flex;
     flex-direction: column;
-    gap: 1.5em;
+}
+.rodape-contato h3{
+    margin-bottom: 2em;
+    
+}
+.rodape-contato p{
+    line-height: 2em;
+    font-size: 0.7em;
 }
 .rodape-contato a{
     color: black;
