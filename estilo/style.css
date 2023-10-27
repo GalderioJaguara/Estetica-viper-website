@@ -27,6 +27,7 @@
     padding: 0px;
     font-size: 1em;
     list-style-type: none;
+    text-decoration: none;
 }
 
 body {
@@ -203,4 +204,12 @@ header a:hover{
     display: flex;
     flex-direction: column;
     gap: 1.5em;
+}
+.rodape-contato a{
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.rodape-contato img{
+    height: 1em;
 }
