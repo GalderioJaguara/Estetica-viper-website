@@ -78,4 +78,10 @@ header a:hover{
     
 
 }
+.container-flex-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    
+
+}
 
