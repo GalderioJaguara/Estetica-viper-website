@@ -29,17 +29,20 @@
     list-style-type: none;
     text-decoration: none;
 }
-
-body {
-    background-color: var(--verde-claro-suave);
+html {
+    scroll-behavior: smooth;
+}
+ body {
+    background-color: white;
     font-family: var(--fonte-sans-serif);
     font-size: 16px;
     min-width: 320px;
+    
 }
 
 header{
     background: linear-gradient(86deg, rgba(13,61,37,1) 0%, rgba(37,88,45,1) 20%, rgba(81,137,58,1) 100%);
-    padding: 1.5em;
+    padding: 1.2em;
 }
 
 header p {
@@ -60,17 +63,17 @@ header li{
     font-family: var(--fonte-serifada);
     margin-left: auto;
     margin-right: auto;
+    transition: all 1s;
 }
-
+header li:hover{
+    transform: scale(1.1);
+}
 header a{
     text-decoration: none;
-    color: #ffefd1;
+    color: var(--verde-claro-suave);
     text-shadow: 1px 1px 1px 1px black;
 }
-header a:hover{
-    text-decoration: underline;
-    transition: 0.5s;
-}
+
 .container-flex-header{
     display: flex;
     flex-direction: row;
@@ -83,16 +86,9 @@ header a:hover{
     
 
 }
-.especialista-container{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-around;
-    height: 80vh;
 
-}
 .quem-somos{
-    padding: 3em;
+    padding: 1.5em;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -105,7 +101,7 @@ header a:hover{
     flex-direction: column;
     gap: 1em;
     max-width: 500px;
-    background-color: #539e79b6;
+    background-color: var(--verde-claro-suave);
     padding: 1.5em;
     border-radius: 1.5em;
 }
@@ -113,6 +109,7 @@ header a:hover{
     font-family: var(--fonte-serifada);
     font-size: 2em;
     color: var(--marrom);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.184);
     
 }
 
@@ -121,12 +118,21 @@ header a:hover{
     line-height: 1.25em;
     
 }
+.especialista-container{
+    padding: 1.5em;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+
+}
 .especialista-texto{
     display: flex;
     flex-direction: column;
     gap: 1em;
     max-width: 500px;
-    background-color: #539e79b6;
+    background-color: var(--verde-claro-suave);
     padding: 1.5em;
     border-radius: 1.5em;
 
@@ -135,6 +141,7 @@ header a:hover{
     font-family: var(--fonte-serifada);
     font-size: 2em;
     color: var(--marrom);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.184);
 }
 .procedimentos-container{
     display: none;
@@ -173,10 +180,10 @@ header a:hover{
     letter-spacing: 3px;
     transition: all 1s;
     text-align: center;
+    
 }
 .procedimentos-lista-container-show li:hover{
     cursor: pointer;
-    text-decoration: underline;
     color: #5E893A;
     transform: scale(1.5);
 
@@ -244,7 +251,71 @@ header a:hover{
     color: black;
     display: flex;
     align-items: center;
+    transition: color 1s;
+}
+.rodape-contato a:hover{
+    color: #595a59;
 }
 .rodape-contato img{
     height: 1em;
+}
+.underline-hover{
+    padding-bottom: 0.25em;
+    position: relative;
+    
+}
+.underline-hover::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    transform-origin: bottom left;
+    background-color: #539E78;
+    transition: transform 0.25s ease-out;
+    transform: scaleX(0);
+}
+.underline-hover:hover::after{
+    transform: scaleX(1);
+}
+.underline-hover-header{
+    padding-bottom: 0.25em;
+    position: relative;
+    
+}
+.underline-hover-header::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    transform-origin: bottom left;
+    background-color: #B8D9D0;
+    transition: transform 0.25s ease-out;
+    transform: scaleX(0);
+}
+.underline-hover-header:hover::after{
+    transform: scaleX(1);
+}
+
+@keyframes animacao-contato {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+#rodape:target{
+    animation: animacao-contato 2s normal;
 }
