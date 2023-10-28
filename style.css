@@ -146,19 +146,61 @@ header a{
 .procedimentos-container{
     display: none;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 80vh;
 
 }
 .procedimentos-lista-container{
     display: flex;
     flex-direction: column;
-    gap: 2em;
+}
+.procedimentos-lista-container h2{
+    font-family: var(--fonte-serifada);
+    font-size: 1.5em;
+    margin-bottom: 3em;
+    letter-spacing: 3px;
+}
+.procedimentos-lista-container li{
+    line-height: 3em;
+    font-family: var(--fonte-sans-serif);
+    font-size: 1em;
+    letter-spacing: 3px;
+    transition: all 1s;
+    text-align: center;
+}
+.procedimentos-lista-container li:hover {
+    cursor: pointer;
+    color: #5E893A;
+    transform: scale(1.5);
+}
+.procedimentos-lista-texto-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3em;
+}
+.procedimentos-lista-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+}
+.procedimentos-lista-texto h3{
+    margin: 1em 0em;
+    font-family: var(--fonte-serifada);
+    font-size: 1.5em;
+}
+.procedimentos-lista-texto p{
+    margin: 1em 0em;
+    font-family: var(--fonte-sans-serif);
+    font-size: 1em;
+    
+}
+.procedimentos-imagem{
+    max-width: 500px;
+    border-radius: 1em;
 }
 
-.procedimentos-lista-container li{
-    margin-top: 2em;
-}
 .procedimentos-container-show{
     display: flex;
     align-items: center;
@@ -238,6 +280,7 @@ header a{
 .rodape-contato{
     display: flex;
     flex-direction: column;
+
 }
 .rodape-contato h3{
     margin-bottom: 2em;
@@ -248,10 +291,10 @@ header a{
     font-size: 0.7em;
 }
 .rodape-contato a{
-    color: black;
     display: flex;
     align-items: center;
     transition: color 1s;
+    color: black;
 }
 .rodape-contato a:hover{
     color: #595a59;
