@@ -190,10 +190,17 @@ header a{
     font-family: var(--fonte-serifada);
     font-size: 1.5em;
 }
+.procedimentos-lista-texto h4{
+    margin: 1em 0em;
+    font-family: var(--fonte-serifada);
+    font-size: 1.5em;
+}
 .procedimentos-lista-texto p{
     margin: 1em 0em;
     font-family: var(--fonte-sans-serif);
-    font-size: 1em;
+    font-size: 16px;
+    font-weight: normal;
+
     
 }
 .procedimentos-imagem{
@@ -246,6 +253,7 @@ header a{
     justify-content: space-around;
     padding-bottom: 4em;
     height: 40vh;
+    border-top: 1px solid #a6895369;
 }
 .rodape-servicos{
     display: flex;
@@ -356,6 +364,5 @@ header a{
         transform: scale(1);
     }
 }
-
 
 
