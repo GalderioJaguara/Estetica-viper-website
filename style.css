@@ -10,7 +10,6 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 :root {
     --verde-tema: #539E78;
     --verde-claro-suave: #B8D9D0;
@@ -28,13 +27,13 @@
     font-size: 1em;
     list-style-type: none;
     text-decoration: none;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 html {
     scroll-behavior: smooth;
 }
  body {
     background-color: white;
-    font-family: var(--fonte-sans-serif);
     font-size: 16px;
     min-width: 320px;
     
@@ -94,6 +93,7 @@ header a{
     align-items: center;
     justify-content: space-around;
     height: 80vh;
+    flex-wrap: wrap;
 
 }
 .quem-somos-texto {
@@ -104,19 +104,19 @@ header a{
     background-color: var(--verde-claro-suave);
     padding: 1.5em;
     border-radius: 1.5em;
+    
 }
 .quem-somos-texto h1{
     font-family: var(--fonte-serifada);
     font-size: 2em;
-    color: var(--marrom);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.184);
+    color: rgb(21, 21, 21);
     
 }
 
 .quem-somos-texto p{
     text-indent: 1em;
     line-height: 1.25em;
-    
+    text-align: justify;    
 }
 .especialista-container{
     padding: 1.5em;
@@ -125,6 +125,7 @@ header a{
     align-items: center;
     justify-content: space-around;
     height: 80vh;
+    flex-wrap: wrap;
 
 }
 .especialista-texto{
@@ -137,11 +138,14 @@ header a{
     border-radius: 1.5em;
 
 }
+.especialista-texto p {
+    text-align: justify;
+}
 .especialista-texto h1{
     font-family: var(--fonte-serifada);
     font-size: 2em;
-    color: var(--marrom);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.184);
+    color: rgb(21, 21, 21);
+   ;
 }
 .procedimentos-container{
     display: none;
@@ -163,7 +167,6 @@ header a{
 }
 .procedimentos-lista-container li{
     line-height: 3em;
-    font-family: var(--fonte-sans-serif);
     font-size: 1em;
     letter-spacing: 3px;
     transition: all 1s;
@@ -198,10 +201,9 @@ header a{
 }
 .procedimentos-lista-texto p{
     margin: 1em 0em;
-    font-family: var(--fonte-sans-serif);
     font-size: 16px;
     font-weight: normal;
-
+    text-align: justify;
     
 }
 .procedimentos-imagem{
@@ -225,7 +227,6 @@ header a{
 
 .procedimentos-lista-container-show li{
     margin-top: 2em;
-    font-family: var(--fonte-sans-serif);
     font-size: 1.5em;
     letter-spacing: 3px;
     transition: all 1s;
