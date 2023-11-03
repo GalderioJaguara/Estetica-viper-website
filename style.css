@@ -148,6 +148,7 @@ header a{
     align-items: center;
     justify-content: space-evenly;
     height: 80vh;
+    background-color: var(--verde-claro-suave);
 
 }
 .procedimentos-lista-container{

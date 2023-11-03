@@ -42,8 +42,3 @@ microagulhamento.forEach((microagulhamentodiv) => microagulhamentodiv.addEventLi
     procedimentosListaTexto.innerHTML = '<h3>Microagulhamento</h3><p>O microagulhamento, também conhecido como terapia de indução de colágeno, é um procedimento estético minimamente invasivo que utiliza um dispositivo com pequenas agulhas para perfurar a pele. O objetivo principal é estimular a produção de colágeno e elastina, melhorar a textura da pele e reduzir imperfeições como rugas, cicatrizes de acne, estrias e hiperpigmentação. O microagulhamento é uma técnica versátil que pode ser usada em várias áreas do corpo.</p><h4>Como funciona microagulhamento?</h4><p>Durante o procedimento de microagulhamento, um dispositivo com agulhas muito finas é passado sobre a pele, criando microlesões controladas. Essas lesões desencadeiam o processo de cicatrização natural do corpo, estimulando a produção de colágeno e elastina na pele. À medida que a pele se regenera, a textura melhora, e as imperfeições tornam-se menos visíveis. O microagulhamento também aumenta a absorção de produtos para cuidados com a pele, potencializando seus efeitos. O procedimento pode ser personalizado para atender às necessidades individuais e é eficaz na busca por uma pele mais saudável e rejuvenescida.</p>'
 }));
 
-procedimentosContainer1.addEventListener('mouseenter', scrollprocedimentos);
-
-function scrollprocedimentos(){
-    procedimentosContainer1.style.backgroundColor = '#B8D9D0';
-}
