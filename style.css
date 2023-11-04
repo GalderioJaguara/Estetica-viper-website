@@ -67,6 +67,9 @@ header li{
 header li:hover{
     transform: scale(1.1);
 }
+header .hidden{
+    display: none;
+}
 header a{
     text-decoration: none;
     color: var(--verde-claro-suave);
@@ -129,7 +132,6 @@ header a{
     justify-content: space-around;
     height: 80vh;
     flex-wrap: wrap;
-
 }
 .quem-somos-texto {
     max-width: 500px;
@@ -157,7 +159,7 @@ header a{
     justify-content: space-around;
     height: 80vh;
     flex-wrap: wrap;
-
+    margin: 2em 0;
 }
 .especialista-texto{
     max-width: 500px;
@@ -206,7 +208,7 @@ header a{
 }
 .procedimentos-lista-container li:hover {
     cursor: pointer;
-    color: #5E893A;
+    color: var(--marrom);
     transform: scale(1.5);
 }
 .procedimentos-lista-texto-container {
@@ -292,7 +294,7 @@ header a{
     justify-content: space-around;
     padding-bottom: 4em;
     height: 40vh;
-    border-top: 1px solid #a6895369;
+    border-top: 1px solid #2e2c2669;
 }
 .rodape-servicos{
     display: flex;
@@ -369,6 +371,26 @@ header a{
 .underline-hover:hover::after{
     transform: scaleX(1);
 }
+.underline-hover-procedimentos{
+    padding-bottom: 0.25em;
+    position: relative;
+    
+}
+.underline-hover-procedimentos::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    transform-origin: bottom left;
+    background-color: var(--laranja-principal);
+    transition: transform 0.25s ease-out;
+    transform: scaleX(0);
+}
+.underline-hover-procedimentos:hover::after{
+    transform: scaleX(1);
+}
 .underline-hover-header{
     padding-bottom: 0.25em;
     position: relative;
@@ -390,18 +412,31 @@ header a{
     transform: scaleX(1);
 }
 
-@keyframes animacao-contato {
-    0% {
-        transform: scale(0.8);
-        opacity: 0;
+@media (max-width: 1440px){
+    .procedimentos-container{
+    align-items: center;
+    height: 80vh;
+    padding: 2em;
     }
-    50% {
-        transform: scale(1.1);
-        opacity: 1;
+}
+    .procedimentos-lista-texto-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 3em;
     }
-    100% {
-        transform: scale(1);
+
+@media(max-width: 1050px){
+    .quem-somos-texto{
+        max-width: 370px;
     }
+    .especialista-texto{
+        max-width: 370px;
+    }
+
+}
+
+@media (max-width:900px) {
+    
 }
 
 
