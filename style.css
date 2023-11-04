@@ -75,11 +75,36 @@ header a{
 .video-container{
     position: relative;
     background-color: transparent;
+    z-index: 0;
 }
 .video-container video{
     height: 100%;
-    width: 100%;
+    width: 100%;  
 }
+.video-container:before{
+    content: '';
+    position: absolute;
+    height: 99.5%;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.166);
+}
+.video-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+.video-overlay span{
+    color: white;
+    font-family: var(--fonte-serifada);
+    font-size: 4em;
+    font-variant: small-caps;
+    
+}
+
+
 .container-flex-header{
     display: flex;
     flex-direction: row;
