@@ -77,10 +77,6 @@ header a{
     background-color: transparent;
     z-index: 0;
 }
-.video-container video{
-    height: 100%;
-    width: 100%;  
-}
 .video-container:before{
     content: '';
     position: absolute;
@@ -89,6 +85,11 @@ header a{
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.166);
 }
+.video-container video{
+    height: 100%;
+    width: 100%;  
+}
+
 .video-overlay{
     position: absolute;
     top: 50%;
