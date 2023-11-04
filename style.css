@@ -59,7 +59,6 @@ header p#clinica-estetica{
 }
 header li{
     list-style-type: none;
-    font-family: var(--fonte-serifada);
     margin-left: auto;
     margin-right: auto;
     transition: all 1s;
@@ -71,12 +70,21 @@ header a{
     text-decoration: none;
     color: var(--verde-claro-suave);
     text-shadow: 1px 1px 1px 1px black;
+    font-family: var(--fonte-serifada);
 }
-
+.video-container{
+    position: relative;
+    background-color: transparent;
+}
+.video-container video{
+    height: 100%;
+    width: 100%;
+}
 .container-flex-header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 
 }
 .container-flex{
@@ -97,14 +105,9 @@ header a{
 
 }
 .quem-somos-texto {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
     max-width: 500px;
-    background-color: var(--verde-claro-suave);
     padding: 1.5em;
-    border-radius: 1.5em;
-    
+    border-right: 0.4px solid black;
 }
 .quem-somos-texto h1{
     font-family: var(--fonte-serifada);
@@ -114,6 +117,7 @@ header a{
 }
 
 .quem-somos-texto p{
+    padding-top: 1em;
     text-indent: 1em;
     line-height: 1.25em;
     text-align: justify;    
@@ -129,17 +133,14 @@ header a{
 
 }
 .especialista-texto{
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
     max-width: 500px;
-    background-color: var(--verde-claro-suave);
     padding: 1.5em;
-    border-radius: 1.5em;
+    border-left: 0.4px solid black;
 
 }
 .especialista-texto p {
     text-align: justify;
+    padding-top: 1em;
 }
 .especialista-texto h1{
     font-family: var(--fonte-serifada);
@@ -153,11 +154,13 @@ header a{
     justify-content: space-evenly;
     height: 80vh;
     background-color: var(--verde-claro-suave);
-
 }
 .procedimentos-lista-container{
     display: flex;
     flex-direction: column;
+}
+.procedimentos-lista-container ul{
+    text-align: center;
 }
 .procedimentos-lista-container h2{
     font-family: var(--fonte-serifada);
@@ -166,11 +169,12 @@ header a{
     letter-spacing: 3px;
 }
 .procedimentos-lista-container li{
-    line-height: 3em;
+    display: inline-block;
+    margin-top: 2em;
     font-size: 1em;
     letter-spacing: 3px;
     transition: all 1s;
-    text-align: center;
+    
 }
 .procedimentos-lista-container li:hover {
     cursor: pointer;
@@ -216,6 +220,7 @@ header a{
     align-items: center;
     justify-content: space-around;
     height: 70vh;
+    margin-bottom: 2em;
 
 }
 .procedimentos-lista-container-show{
@@ -224,13 +229,17 @@ header a{
     gap: 2em;
     align-items: center;
 }
+.procedimentos-lista-container-show ul{
+    text-align: center;
+}
 
 .procedimentos-lista-container-show li{
-    margin-top: 2em;
+    display: inline-block;
+    margin-bottom: 2em;
     font-size: 1.5em;
     letter-spacing: 3px;
     transition: all 1s;
-    text-align: center;
+
     
 }
 .procedimentos-lista-container-show li:hover{
@@ -245,7 +254,7 @@ header a{
 .procedimentos-lista-container-show h1{
     font-family: var(--fonte-serifada);
     font-size: 3em;
-    margin-bottom: 2.5em;
+    margin-bottom: 1.5em;
     letter-spacing: 3px;
 }
 .rodape{
