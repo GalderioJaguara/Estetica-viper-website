@@ -184,6 +184,7 @@ header a{
     height: 80vh;
     background-color: var(--laranja-tom-de-pele);
     margin-top: 10em;
+    padding: 3em;
 }
 .procedimentos-lista-container{
     display: flex;
@@ -416,7 +417,6 @@ header a{
     .procedimentos-container{
     align-items: center;
     height: 80vh;
-    padding: 2em;
     }
 }
     .procedimentos-lista-texto-container{
@@ -435,8 +435,8 @@ header a{
 
 }
 
-@media (max-width:900px) {
-    
+@media (max-width:930px) {
+
 }
 
 
