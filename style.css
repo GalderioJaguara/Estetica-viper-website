@@ -132,6 +132,7 @@ header a{
     justify-content: space-around;
     height: 80vh;
     flex-wrap: wrap;
+    margin: 2em 0;
 }
 .quem-somos-texto {
     max-width: 500px;
@@ -183,7 +184,7 @@ header a{
     justify-content: space-evenly;
     height: 80vh;
     background-color: var(--laranja-tom-de-pele);
-    margin-top: 10em;
+    margin-top: 3em;
     padding: 3em;
 }
 .procedimentos-lista-container{
@@ -196,7 +197,7 @@ header a{
 .procedimentos-lista-container h2{
     font-family: var(--fonte-serifada);
     font-size: 1.5em;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
     letter-spacing: 3px;
 }
 .procedimentos-lista-container li{
@@ -421,8 +422,6 @@ header a{
 }
     .procedimentos-lista-texto-container{
         flex-direction: column;
-        align-items: center;
-        gap: 3em;
     }
 
 @media(max-width: 1050px){
@@ -436,7 +435,41 @@ header a{
 }
 
 @media (max-width:930px) {
-
+    .quem-somos{
+        gap: 2em;
+        height: 100vh;
+        flex-direction: column;
+     }
+     .quem-somos-texto{
+        border-right: 0px solid black;
+        border-bottom: 0.4px solid black;
+     }
+     .especialista-container{
+        height: 100vh;
+        gap: 4em;
+        padding: 4em;
+    }
+    .especialista-texto{
+        border-left: 0px solid black;
+        border-bottom: 0.4px solid black;
+    }
+    .procedimentos-container{
+        flex-direction: column;
+        height: 100vh;
+        padding: 7em;
+        margin-top: 6em;
+    }
+    .procedimentos-lista-container{
+        margin-bottom: 1em;
+        border-bottom: 0.4px solid black;
+        padding: 2em;
+    }
+    
 }
+
+@media (max-width:530px){
+   
+}
+
 
 
