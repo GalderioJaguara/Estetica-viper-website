@@ -126,12 +126,11 @@ header a{
 }
 
 .quem-somos{
-    padding: 1.5em;
+    padding: 5em;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    height: 80vh;
     flex-wrap: wrap;
     margin: 2em 0;
 }
@@ -154,12 +153,11 @@ header a{
     text-align: justify;    
 }
 .especialista-container{
-    padding: 1.5em;
+    padding: 5em;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
-    height: 80vh;
     flex-wrap: wrap;
     margin: 2em 0;
 }
@@ -183,7 +181,6 @@ header a{
     display: none;
     align-items: center;
     justify-content: space-evenly;
-    height: 80vh;
     background-color: var(--laranja-tom-de-pele);
     margin-top: 3em;
     padding: 3em;
@@ -253,8 +250,7 @@ header a{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 70vh;
-    margin: 2em 0;
+    margin: 7em 0em 13em 0em
 
 }
 .procedimentos-lista-container-show{
@@ -296,8 +292,7 @@ header a{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding-bottom: 4em;
-    height: 40vh;
+    padding: 5em;
     border-top: 1px solid #2e2c2669;
 }
 .rodape-servicos{
