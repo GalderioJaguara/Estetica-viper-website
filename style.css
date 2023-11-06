@@ -28,6 +28,7 @@
     list-style-type: none;
     text-decoration: none;
     font-family: 'Hanken Grotesk', sans-serif;
+    box-sizing: border-box;
 }
 html {
     scroll-behavior: smooth;
