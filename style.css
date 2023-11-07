@@ -126,13 +126,13 @@ header a{
 }
 
 .quem-somos{
-    padding: 5em;
+    padding: 3em 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 2em 0;
+    margin-top: 2em;
 }
 .quem-somos-texto {
     max-width: 500px;
@@ -160,13 +160,12 @@ header a{
     height: auto;
 }
 .especialista-container{
-    padding: 5em;
+    padding: 3em 0;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 2em 0;
 }
 .especialista-texto{
     max-width: 500px;
@@ -182,15 +181,16 @@ header a{
     font-family: var(--fonte-serifada);
     font-size: 2em;
     color: rgb(21, 21, 21);
-   ;
+   
 }
 .procedimentos-container{
     display: none;
     align-items: center;
     justify-content: space-evenly;
     background-color: var(--laranja-tom-de-pele);
+    height: 700px;
     margin-top: 3em;
-    padding: 3em;
+    padding: 5em 3em;
 }
 .procedimentos-lista-container{
     display: flex;
@@ -222,7 +222,6 @@ header a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 3em;
 }
 .procedimentos-lista-texto {
     display: flex;
