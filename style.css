@@ -159,8 +159,9 @@ span#burgao {
     max-width: 400px;
 }
 .image-fluid img{
-    width: 100%;
-    height: auto;
+    max-width: 95%;
+    margin: auto;
+    display: block;
 }
 .especialista-container{
     padding: 3em 0;
@@ -191,7 +192,6 @@ span#burgao {
     align-items: center;
     justify-content: space-evenly;
     background-color: var(--laranja-tom-de-pele);
-    height: 700px;
     margin-top: 3em;
     padding: 5em 3em;
 }
@@ -230,7 +230,7 @@ span#burgao {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 500px;
+    max-width: 500px;
 }
 .procedimentos-lista-texto h3{
     margin: 1em 0em;
@@ -298,10 +298,11 @@ span#burgao {
 }
 .rodape{
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    flex-flow: row wrap;
     padding: 5em;
+    gap: 4em;
     border-top: 1px solid #2e2c2669;
 }
 .rodape-servicos{

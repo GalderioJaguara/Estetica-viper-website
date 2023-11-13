@@ -20,5 +20,28 @@ span#burgao {
     }
     .navigation {
         display: block;
-      
-}
+    }
+    .rodape{
+        
+    }
+    }
+
+    @media screen and (max-width:1200px) {
+        .procedimentos-container {
+            flex-direction: column;
+        }
+        .procedimentos-lista-texto {
+            margin-bottom: 2em;
+        }
+        .procedimentos-lista-container {
+            padding-bottom: 3em;
+            margin-bottom: 3em;
+            border-bottom: 0.3px solid rgba(0, 0, 0, 0.212);
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        .procedimentos-container {
+            height: 700px;
+        }
+    }
