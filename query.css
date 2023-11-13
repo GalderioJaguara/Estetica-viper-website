@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+span#burgao {
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    span#burgao {
+        display: block;
+        cursor: pointer;
+    }
+    .container-flex-header{
+        flex-direction: column;
+        gap: 1.2em;
+    }
+}
