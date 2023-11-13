@@ -13,4 +13,7 @@ span#burgao {
         flex-direction: column;
         gap: 1.2em;
     }
+    .navigation {
+        display: none;
+    }
 }
