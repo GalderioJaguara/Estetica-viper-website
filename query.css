@@ -20,9 +20,12 @@ span#burgao {
     }
     .navigation {
         display: none;
+    
     }
-   
-
+    .rodape {
+        justify-content: space-between;
+    }
+}
     @media screen and (max-width:1200px) {
         .procedimentos-container {
             flex-direction: column;
