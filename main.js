@@ -67,3 +67,20 @@ function menuWide() {
         navbar.style.display = 'none';
     }
 }
+
+const imagemProcedimentos = document.querySelector('img#imagem-change');
+
+function needlingImg() {
+    imagemProcedimentos.setAttribute('src','Imagens/microagulhamento.jpeg');
+    
+}
+
+function peelingImg(){
+    imagemProcedimentos.setAttribute('src','Imagens/facial-treatment.jpeg');
+}
+function facialImg() {
+    imagemProcedimentos.setAttribute('src', 'Imagens/massagem-facial.jpg');
+}
+function limpezaImg() {
+    imagemProcedimentos.setAttribute('src', 'Imagens/limpeza.jpg');
+}

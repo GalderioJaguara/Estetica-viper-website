@@ -19,12 +19,9 @@ span#burgao {
       
     }
     .navigation {
-        display: block;
+        display: none;
     }
-    .rodape{
-        
-    }
-    }
+   
 
     @media screen and (max-width:1200px) {
         .procedimentos-container {
@@ -43,5 +40,8 @@ span#burgao {
     @media screen and (min-width: 1200px) {
         .procedimentos-container {
             height: 700px;
+        }
+        .procedimentos-lista-texto{
+            max-width: 500px;
         }
     }
