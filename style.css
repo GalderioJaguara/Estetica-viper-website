@@ -133,7 +133,7 @@ span#burgao {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 2em;
 }
@@ -168,7 +168,7 @@ span#burgao {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .especialista-texto{
