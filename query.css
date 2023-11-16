@@ -40,11 +40,13 @@ span#burgao {
         }
     }
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1440px) {
         .procedimentos-container {
             height: 700px;
         }
-        .procedimentos-lista-texto{
-            max-width: 500px;
+    }
+    @media screen and (max-width: 1440px) {
+        .procedimentos-lista-texto {
+            max-width: 400px;
         }
     }
