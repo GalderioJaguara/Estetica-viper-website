@@ -53,10 +53,13 @@ span#burgao {
         .procedimentos-lista-texto {
             max-width: 400px;
         }
+        .procedimentos-container {
+            gap: 2em;
+        }
     }
 
     @media screen and (min-width: 2000px) {
-        
+
         .rodape-container {
             max-width: 2000px;
             margin: auto;
