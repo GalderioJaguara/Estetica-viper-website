@@ -54,3 +54,17 @@ span#burgao {
             max-width: 400px;
         }
     }
+
+    @media screen and (min-width: 2000px) {
+        .rodape-container {
+            max-width: 2000px;
+            margin: auto;
+        }
+        .procedimentos-container-large-devices {
+            background-color: #D9A282;
+        }
+        .procedimentos-container {
+            max-width: 2000px;
+            margin: auto;
+        }
+    }

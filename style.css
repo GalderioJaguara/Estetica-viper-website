@@ -38,10 +38,13 @@ html {
     font-size: 16px;
     
 }
-
-header{
+.cabecalho {
     background: linear-gradient(86deg, rgba(13,61,37,1) 0%, rgba(37,88,45,1) 20%, rgba(81,137,58,1) 100%);
     padding: 1.2em;
+}
+header{
+    max-width: 1920px;
+    margin: auto;
 }
 
 header p {
@@ -186,7 +189,7 @@ span#burgao {
     color: rgb(21, 21, 21);
    
 }
-.procedimentos-container{
+.procedimentos-container {
     display: none;
     align-items: center;
     justify-content: space-evenly;
