@@ -5,7 +5,7 @@ span#burgao {
 }
 
 @media screen and (max-width: 600px) {
-   .btn-mobile {
+    .btn-mobile {
         display: flex;
         padding: .5em 1em;
         font-size: 1em;
@@ -35,10 +35,10 @@ span#burgao {
         left: 50%;
         transform: translate(-50%,0); 
         height: 0;
-        
-        
-        
-          
+
+
+
+
     }
     .container-flex-header li {
         margin-bottom: 1.3em;
@@ -55,8 +55,8 @@ span#burgao {
     .navigation.active .container-flex-header {
         visibility: visible;
         overflow: visible;
-    
-        
+
+
     }
     .btn-mobile.active .hamb {
         border-top-color: transparent;
@@ -64,12 +64,12 @@ span#burgao {
     .btn-mobile.active .hamb::before {
         transform: rotate(135deg);
     }
-    
+
     .btn-mobile.active .hamb::after {
         transform: rotate(-135deg);
         top: -6px;
     }
-    
+
 
 
     .rodape {
