@@ -52,12 +52,6 @@ span#burgao {
         height: 200px;
     }
 
-    .navigation.active .container-flex-header {
-        visibility: visible;
-        overflow: visible;
-
-
-    }
     .btn-mobile.active .hamb {
         border-top-color: transparent;
     }

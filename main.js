@@ -20,8 +20,8 @@ const limpezadePele = document.querySelectorAll('.limpeza-de-pele');
 const massagemFacial = document.querySelectorAll('.massagem-facial');
 const microagulhamento = document.querySelectorAll('.microagulhamento');
 const peeling = document.querySelectorAll('.peeling');
-const navbar = document.querySelector('div.navigation');
 const headerflex = document.querySelector('ul.container-flex-header')
+const navbar = document.querySelector('div.navigation');
 
 const botao = document.querySelector('.btn-mobile');
 botao.addEventListener('click', abrirMenu);
@@ -58,9 +58,13 @@ microagulhamento.forEach((microagulhamentodiv) => microagulhamentodiv.addEventLi
 
 function menuWide() {
     if (window.innerWidth >= 600) {
+        
         navbar.style.display = 'block';
+        botao.classList.remove('active');
+        navbar.classList.remove('active');
+        botao.style.display = 'none';
     } else {
-        navbar.style.display = 'none';
+       botao.style.display = 'flex';
     }
 }
 
