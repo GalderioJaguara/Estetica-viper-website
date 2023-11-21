@@ -70,12 +70,16 @@
         transform: translate(-50%,0); 
         height: 0;
         text-align: center;
-
+        opacity: 0;
+        transition: 1s;
 
 
     }
     .container-flex-header li {
         margin-bottom: 1.3em;
+    }
+    .navigation.active .container-flex-header{
+        opacity: 1;
     }
 
     .navigation {
