@@ -234,6 +234,7 @@ span#burgao {
     display: flex;
     flex-direction: row;
     align-items: center;
+    animation: mostrarconteudo 1s ease-in-out 1 forwards;
 }
 .procedimentos-lista-texto {
     display: flex;
@@ -460,3 +461,13 @@ span#burgao {
     }
 }
 
+.showing {
+    opacity: 1;
+    transform: translate(0,0);
+    filter: blur(0);
+}
+.hide {
+    opacity: 0;
+    transform: translate(0,100px);
+    filter: blur(33px);
+}
