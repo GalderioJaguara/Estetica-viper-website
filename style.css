@@ -363,16 +363,14 @@ span#burgao {
     font-size: 0.7em;
 }
 .rodape-contato a{
-    display: flex;
-    align-items: center;
     transition: color 1s;
     color: black;
 }
 .rodape-contato a:hover{
     color: #595a59;
 }
-.rodape-contato img{
-    height: 1em;
+.fa-instagram {
+    margin-right: 2px;
 }
 .underline-hover{
     padding-bottom: 0.25em;
