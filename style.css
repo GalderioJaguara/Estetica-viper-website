@@ -265,7 +265,7 @@ span#burgao {
     max-width: 500px;
     border-radius: 1em;
     opacity: 0;
-    animation: mostrarconteudo 1.5s ease-in-out 1 forwards;
+    animation: mostrarconteudo 1s ease-in-out 1 forwards;
 }
 
 .procedimentos-container-show{
