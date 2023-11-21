@@ -1,14 +1,41 @@
 @charset "UTF-8";
 
+
+@media screen and (max-width: 310px) {
+        .rodape-servicos {
+            display: block;
+        }
+        .rodape-endereco li {
+            display: block;
+        }
+        .rodape-contato li{
+            display: block;
+        }
+        .rodape-contato a {
+            display: inline;
+        }
+}
+
+
+
 @media screen and (max-width: 471px) {
     .rodape {
         display: block;
         text-align: center;
+        padding: 5em 0;
+    }
+    .rodape-servicos {
+        margin-bottom: 2em;
+    }
+    .rodape-endereco {
+        margin-bottom: 2em;
     }
    .rodape-contato a{
     justify-content: center;
     align-items: center;
    }
+   
+   
    
 }
 @media screen and (max-width: 600px) {

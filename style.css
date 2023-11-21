@@ -272,7 +272,7 @@ span#burgao {
     align-items: center;
     justify-content: space-around;
     text-align: center;
-    padding: 10em;
+    padding: 10em 0;
     border-top: 1px solid #2e2c2634;
 }
 
@@ -342,7 +342,7 @@ span#burgao {
     
 }
 .rodape-endereco h3{
-    margin-bottom: 2em;
+    margin-bottom: 1.3em;
     
 }
 .rodape-endereco p{
@@ -355,7 +355,7 @@ span#burgao {
 
 }
 .rodape-contato h3{
-    margin-bottom: 2em;
+    margin-bottom: 1.3em;
     
 }
 .rodape-contato p{
