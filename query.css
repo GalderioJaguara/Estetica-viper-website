@@ -1,9 +1,15 @@
 @charset "UTF-8";
 
-span#burgao {
-    color: white;
+@media screen and (max-width: 471px) {
+    .rodape {
+        display: block;
+        text-align: center;
+    }
+   .rodape-contato a{
+    display: inline-block;
+   }
+   
 }
-
 @media screen and (max-width: 600px) {
     .btn-mobile {
         display: flex;
