@@ -42,6 +42,9 @@ html {
     background: linear-gradient(86deg, rgba(13,61,37,1) 0%, rgba(37,88,45,1) 20%, rgba(81,137,58,1) 100%);
     padding: 1.2em;
 }
+.btn-mobile {
+    display: none;
+}
 header{
     max-width: 1920px;
     margin: auto;

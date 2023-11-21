@@ -6,7 +6,8 @@
         text-align: center;
     }
    .rodape-contato a{
-    display: inline-block;
+    justify-content: center;
+    align-items: center;
    }
    
 }
