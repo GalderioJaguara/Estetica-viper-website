@@ -57,6 +57,9 @@ header p {
     text-align: center;
     text-shadow: 1px 1px 1px 1px black;
 }
+.logo a {
+    color: var(--laranja-principal);
+}
 header p#clinica-estetica{
     font-size: 1.2em;
     text-align: center;
