@@ -49,7 +49,7 @@
         transition: 1s ease-in-out;
     }
     .navigation.active {
-        height: 200px;
+        height: 220px;
     }
 
     .btn-mobile.active .hamb {
@@ -83,6 +83,26 @@
         display: block;
     }
 }
+  @media screen and (max-width: 768px) {
+    .rodape {
+        display: block;
+        text-align: center;
+        padding: 5em 0;
+    }
+    .rodape-servicos {
+        margin-bottom: 2em;
+        display: block;
+    }
+    .rodape-endereco {
+        margin-bottom: 2em;
+    }
+    .rodape-endereco li {
+        display: block;
+    }
+    .rodape-contato li{
+        display: block;
+    }
+  }
     @media screen and (max-width:1200px) {
         .procedimentos-container {
             flex-direction: column;

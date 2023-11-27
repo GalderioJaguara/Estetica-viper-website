@@ -133,7 +133,7 @@ span#burgao {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    padding-top: 1em;
 }
 .container-flex{
     display: flex;
