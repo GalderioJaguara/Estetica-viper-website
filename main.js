@@ -122,3 +122,4 @@ function facialImg() {
 function limpezaImg() {
     imagemProcedimentos.setAttribute('src', 'Imagens/limpeza.jpg');
 }
+

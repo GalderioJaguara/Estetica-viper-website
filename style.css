@@ -42,7 +42,12 @@ html {
 }
 .cabecalho {
     background: linear-gradient(86deg, rgba(13,61,37,1) 0%, rgba(37,88,45,1) 20%, rgba(81,137,58,1) 100%);
-    padding: 1.2em;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    opacity: 0.9;
+    z-index: 2;
+    overflow: hidden;
 }
 .btn-mobile {
     display: none;
@@ -65,7 +70,7 @@ header p {
 header p#clinica-estetica{
     font-size: 1.2em;
     text-align: center;
-    padding-bottom: 1.5em;
+   
     text-shadow: 1px 1px 1px 1px black;
 }
 header li{
@@ -127,8 +132,7 @@ span#burgao {
 .container-flex-header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-
+    justify-content: center;
 
 }
 .container-flex{
@@ -476,3 +480,4 @@ span#burgao {
     transform: translate(0,100px);
     filter: blur(33px);
 }
+
