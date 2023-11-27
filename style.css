@@ -43,7 +43,7 @@ html {
 .cabecalho {
     background: linear-gradient(86deg, rgba(13,61,37,1) 0%, rgba(37,88,45,1) 20%, rgba(81,137,58,1) 100%);
     padding: 1rem;
-    position: sticky;
+    position: relative;
     top: 0;
     opacity: 0.9;
     z-index: 2;
