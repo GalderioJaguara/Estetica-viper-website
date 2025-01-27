@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 600px) {
-    .btn-mobile {
+    .button-humburger-menu {
         display: flex;
         padding: .5em 1em;
         font-size: 1em;
@@ -10,11 +10,11 @@
         cursor: pointer;
         gap: 1em;
    }
-   .hamb {
+   .humburger-menu {
     border-top: 0.3px solid #f5f5f5;
     width: 20px;
    }
-   .hamb::after, .hamb::before {
+   .humburger-menu::after, .humburger-menu::before {
     content: '';
     display: block;
     width: 20px;

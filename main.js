@@ -24,7 +24,7 @@ const headerflex = document.querySelector('ul.container-flex-header')
 const navbar = document.querySelector('div.navigation');
 const procedimentoslistatextoContainer = document.querySelector('.procedimentos-lista-texto-container');
 
-const botao = document.querySelector('.btn-mobile');
+const botao = document.querySelector('.button-humburger-menu');
 botao.addEventListener('click', abrirMenu);
 botao.addEventListener('touchstart', abrirMenu);
 function abrirMenu(event){
