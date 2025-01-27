@@ -109,17 +109,20 @@ function menuWide() {
 const imagemProcedimentos = document.querySelector('img#imagem-change');
 
 function needlingImg() {
-    imagemProcedimentos.setAttribute('src','Imagens/microagulhamento.jpeg');
-    
+    imagemProcedimentos.setAttribute('src','Imagens/microagulhamento.webp');
+    imagemProcedimentos.setAttribute('loading','lazy');
 }
 
 function peelingImg(){
-    imagemProcedimentos.setAttribute('src','Imagens/facial-treatment.jpeg');
+    imagemProcedimentos.setAttribute('src','Imagens/facial-treatment.webp');
+    imagemProcedimentos.setAttribute('loading','lazy');
 }
 function facialImg() {
-    imagemProcedimentos.setAttribute('src', 'Imagens/massagem-facial.jpg');
+    imagemProcedimentos.setAttribute('src', 'Imagens/massagem-facial.webp');
+    imagemProcedimentos.setAttribute('loading','lazy');
 }
 function limpezaImg() {
-    imagemProcedimentos.setAttribute('src', 'Imagens/limpeza.jpg');
+    imagemProcedimentos.setAttribute('src', 'Imagens/limpeza.webp');
+    imagemProcedimentos.setAttribute('loading','lazy');
 }
 
