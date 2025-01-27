@@ -26,7 +26,7 @@ const procedimentoslistatextoContainer = document.querySelector('.procedimentos-
 
 const botao = document.querySelector('.button-humburger-menu');
 botao.addEventListener('click', abrirMenu);
-botao.addEventListener('touchstart', abrirMenu);
+botao.addEventListener('touchstart', abrirMenu, {passive: true});
 function abrirMenu(event){
     if (event.type ==='touchstart') event.preventDefault();
     const navbar = document.querySelector('div.navigation');
